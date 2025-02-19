@@ -98,7 +98,7 @@ header {
 }
 
 .header-content h2 {
-    font-size: 5vmin;
+    font-size: 6vmin;
     text-transform: capitalize;
     
 }
@@ -115,7 +115,7 @@ header {
 
 .header-content h1 {
     font-size: 7vmin;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -170,7 +170,7 @@ header {
         right: 30px;
         margin: 30px 0;
     }
-
+/*
     .menu-ctn {
         color: white;
         background-color: transparent;
@@ -179,7 +179,7 @@ header {
         border-radius: 0px;
        
     }
-
+*/
     .nav-btn {
         position: absolute;
         top: 30px;
@@ -428,10 +428,7 @@ section{
     }
 
     .destination-text .line{
-        position: relative;
-       
-       width: 150px;
-        margin: 0 auto;
+        display: none;
       }
 
     .destination-text{
